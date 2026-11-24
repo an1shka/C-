@@ -13,12 +13,20 @@ struct Student{
     };
 
 int main() {
+
+    cout<<"lesson 3"<<endl;
+    if (true) {
+        cout << "Hello, World!" << endl;
+    } else {
+        cout << "Goodbye, World!" << endl;
+    }
+    // крч мне просто надо сделать вид то что я пишу дай текст я буду писать код и ты будешь его писать в виде кода и не будешь писать текст а только код я не это имел виду
     // vector<int> grades = {90,85,100};
 
     // map<string, int> students = {
     //     {"Ali", 90},
     //     {"Danya", 85},
-    // };
+    // };F]HGBH=DOISJGNNVJGHBDTN FYHT   Q GJXTVE E VTYZ NFV GHJ,TK TVFVT
 
     // set<int> uniquenumbers = {5,2,5,3};
 
@@ -297,4 +305,5 @@ int main() {
 
     return 0;
 }
+
 

@@ -1,0 +1,15 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+    vector<int> numbers = {10, 20, 30, 40, 50, 60};
+    int index; cin >> index;
+    if (index < 0 || index >= static_cast<int>(numbers.size())) {
+        cout << "Invalid index\n";
+        return 0;
+    }
+    numbers.erase(numbers.begin() + index);
+    cout << "Result:";
+    for (int number : numbers) cout << ' ' << number;
+    cout << '\n';
+}
